@@ -183,17 +183,20 @@
   .left-1\/2 {
     left: calc(1/2 * 100%);
   }
-  .z-10 {
-    z-index: 10;
-  }
   .z-20 {
     z-index: 20;
+  }
+  .z-30 {
+    z-index: 30;
   }
   .m-10 {
     margin: calc(var(--spacing) * 10);
   }
   .flex {
     display: flex;
+  }
+  .hidden {
+    display: none;
   }
   .h-\[64px\] {
     height: 64px;
@@ -220,6 +223,9 @@
     --tw-translate-x: calc(calc(1/2 * 100%) * -1);
     --tw-translate-y: calc(calc(1/2 * 100%) * -1);
     translate: var(--tw-translate-x) var(--tw-translate-y);
+  }
+  .cursor-pointer {
+    cursor: pointer;
   }
   .flex-col {
     flex-direction: column;

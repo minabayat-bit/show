@@ -1,18 +1,18 @@
-const btnEl = document.getElementById("btn")
-const modalEl = document.getElementById("modal")
-const closeEl = document.getElementById("close")
-const backdropEl = document.getElementById("backdrop")
+const btnEl = document.getElementById("btn");
+const modalEl = document.getElementById("modal");
+const closeEl = document.getElementById("close");
+const backdropEl = document.getElementById("backdrop");
 
 btnEl.addEventListener("click", () => {
-  modalH.classList.remove("hide");
-  blurEl.classList.remove("hide");
+  modalEl.classList.remove("hidden");
+  backdropEl.classList.remove("hidden");
 });
-colseEl.addEventListener("click", () => {
-  modalH.classList.add("hide");
-  blurEl.classList.add("hide");
+closeEl.addEventListener("click", () => {
+  modalEl.classList.add("hidden");
+  backdropEl.classList.add("hidden");
 });
 
-backdropElEl.addEventListener("click", () => {
-  modalH.classList.add("hide");
-  blurEl.classList.add("hide");
+backdropEl.addEventListener("click", () => {
+  modalEl.classList.add("hidden");
+  backdropEl.classList.add("hidden");
 });
