@@ -16,19 +16,20 @@
       </button>
       <div
         id="modal"
-        class="hidden flex flex-col gap-4 justify-center pl-5 z-20
-       fixed top-1/2 left-1/2 -translate-1/2 w-[540px] h-[160px] bg-[#131c31] border-1 border-[#b9e0f2] rounded-3xl"
+        class="hidden flex flex-col gap-4 justify-center pl-5 z-30 fixed top-1/2 left-1/2 -translate-1/2 w-[540px] h-[160px] bg-[#131c31] border-1 border-[#b9e0f2] rounded-3xl"
       >
-        <span id="close" class="font-bold text-white">x</span>
+        <span id="close" class="font-bold text-4xl text-white cursor-pointer">x</span>
+
         <h2 class="flex text-2xl text-[#b9e0f2]">Modal title</h2>
 
         <p class="flex text-[#b9e0f2]">
           Woo-hoo, you're reading this text in a modal!
         </p>
       </div>
+
       <div
         id="backdrop"
-        class="hidden z-30 fixed top-0 left-0 h-full w-full backdrop-blur-sm bg-[#0f172a]"
+        class="hidden z-20 fixed top-0 left-0 h-full w-full backdrop-blur-sm bg-[#0f172a]/50"
       ></div>
     </main>
     <script src="script.js"></script>
